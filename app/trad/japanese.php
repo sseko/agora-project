@@ -22,7 +22,7 @@ class Trad extends Txt
 			////	Divers
 			"fillFieldsForm"=>"フォームのフィールドに入力してください",
 			"requiredFields"=>"必須フィールド",
-			"inaccessibleElem"=>"アクセスできない要素",
+			"inaccessibleElem"=>"アクセスできない項目",
 			"warning"=>"警告",
 			"elemEditedByAnotherUser"=>"編集中です",//"..bob"
 			"yes"=>"はい",
@@ -43,8 +43,8 @@ class Trad extends Txt
 			"mapLocalizationFailureLeaflet2"=>"次の住所が www.google.com/maps または www.openstreetmap.org に存在することを確認してください",
 			"sendMail"=>"メールを送る",
 			"mailInvalid"=>"このメールは無効です",
-			"element"=>"要素",
-			"elements"=>"複数要素",
+			"element"=>"項目",
+			"elements"=>"複数の項目",
 			"folder"=>"フォルダー",
 			"folders"=>"複数フォルダー",
 			"close"=>"閉じる",
@@ -58,7 +58,7 @@ class Trad extends Txt
 			"objNew"=>"最近作成されたアイテム",
 			"personalAccess"=>"パーソナルアクセス",
 			"copyUrl"=>"リンク/URLをコピーします",
-			"copyUrlInfo"=>"このリンク/URL を使用すると、要素に直接アクセスできます:<br> ニュース、フォーラムのトピック、メール、ブログ (外部アクセス) などに統合できます。",
+			"copyUrlInfo"=>"このリンク/URL を使用すると、アイテムに直接アクセスできます:<br> ニュース、フォーラムのトピック、メール、ブログ (外部アクセス) などに統合できます。",
 			"copyUrlConfirmed"=>"Web アドレスが正常にコピーされました",
 			"cancel"=>"キャンセル",
 
@@ -118,7 +118,7 @@ class Trad extends Txt
 			"selectUnselect"=>"選択/選択解除",
 			"selectAll"=>"全てを選択",
 			"selectSwitch"=>"スイッチ選択",
-			"deleteElems"=>"選択した要素を削除します",
+			"deleteElems"=>"選択した項目を削除します",
 			"changeFolder"=>"別のフォルダに移動",
 			"showOnMap"=>"地図上に表示",
 			"showOnMapInfo"=>"連絡先を住所、郵便番号、市区町村で地図上に表示",
@@ -216,7 +216,7 @@ class Trad extends Txt
 			"modification"=>"変更",
 			"createBy"=>"作成者 by",
 			"modifBy"=>"変更者 by",
-			"objHistory"=>"要素履歴",
+			"objHistory"=>"項目履歴",
 			"all"=>"全て",
 			"deletedUser"=>"削除されたユーザー アカウント",
 			"folderContent"=>"コンテンツ",
@@ -232,7 +232,7 @@ class Trad extends Txt
 			
 			////	Libellé des objets
 			"OBJECTcontainer"=>"コンテナ",
-			"OBJECTelement"=>"要素",
+			"OBJECTelement"=>"項目",
 			"OBJECTfolder"=>"フォルダー",
 			"OBJECTdashboardNews"=>"ニュース",
 			"OBJECTdashboardPoll"=>"調査",
@@ -326,7 +326,7 @@ class Trad extends Txt
 			"keywords"=>"キーワード",
 			"listModules"=>"モジュール",
 			"listFields"=>"フィールド",
-			"listFieldsElems"=>"関係する要素",
+			"listFieldsElems"=>"関係する項目",
 			"noResults"=>"検索結果はありません",
 			
 			////	Inscription d'utilisateur
@@ -709,7 +709,7 @@ class Trad extends Txt
 			////
 			// Menu principal + options du module
 			"DASHBOARD_headerModuleName"=>"ニュース",
-			"DASHBOARD_moduleDescription"=>"ニュース、投票、最近の要素",
+			"DASHBOARD_moduleDescription"=>"ニュース、投票、最近の項目",
 			"DASHBOARD_option_adminAddNews"=>"管理者のみがニュースを追加できます",//OPTION!
 			"DASHBOARD_option_disablePolls"=>"投票を無効にする",//OPTION!
 			"DASHBOARD_option_adminAddPoll"=>"管理者のみが投票を追加できます",//OPTION!
@@ -730,15 +730,15 @@ class Trad extends Txt
 			"DASHBOARD_pollVotesNb"=>"The poll was voted --NB_VOTES-- times",
 			"DASHBOARD_pollVotedBy"=>"投票者",//Bibi, boby, etc
 			"DASHBOARD_noPoll"=>"今のところ投票はありません",
-			"DASHBOARD_plugins"=>"新しい要素",
-			"DASHBOARD_pluginsInfo"=>"作成された要素",
+			"DASHBOARD_plugins"=>"新しい項目",
+			"DASHBOARD_pluginsInfo"=>"作成された項目",
 			"DASHBOARD_pluginsInfo2"=>"間",
 			"DASHBOARD_plugins_day"=>"今日の",
 			"DASHBOARD_plugins_week"=>"今週の",
 			"DASHBOARD_plugins_month"=>"今月の",
 			"DASHBOARD_plugins_previousConnection"=>"最後のログイン以降",
-			"DASHBOARD_pluginsTooltipRedir"=>"フォルダ内の要素を表示する",
-			"DASHBOARD_pluginEmpty"=>"この期間の新しい要素はありません",
+			"DASHBOARD_pluginsTooltipRedir"=>"フォルダ内の項目を表示する",
+			"DASHBOARD_pluginEmpty"=>"この期間の新しい項目はありません",
 			// Actualite/News
 			"DASHBOARD_topNews"=>"トップニュース",
 			"DASHBOARD_topNewsInfo"=>"リストの一番上にあるニュース",
@@ -1011,8 +1011,8 @@ class Trad extends Txt
 		}
 
 		//Fêtes fixes
-		$dateList[$year."-01-01"]="New Year's Day";
-		$dateList[$year."-12-25"]="Christmas";
+		$dateList[$year."-01-01"]="新年";
+		$dateList[$year."-12-25"]="クリスマス";
 
 		//Retourne le résultat
 		return $dateList;
