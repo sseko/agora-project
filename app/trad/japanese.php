@@ -226,9 +226,9 @@ class Trad extends Txt
 			"accessWriteLimitInfo"=>"制限付き書き込みアクセス: 追加する可能性 -OBJCONTENT- in the -OBJLABEL-,<br> ただし、各ユーザーは変更/削除のみ可能です -OBJCONTENT- ",
 			"accessWrite"=>"書く",
 			"accessWriteInfo"=>"書き込み時のアクセス",
-			"accessWriteInfoContainer"=>"Access in writing : Ability to add, modify or delete all the -OBJCONTENT-s of the -OBJLABEL-",
-			"accessAutorPrivilege"=>"Only the author and administrators can edit the access rights or delete the -OBJLABEL-",
-			"accessRightsInherited"=>"Access rights inherited from the -OBJLABEL-",
+			"accessWriteInfoContainer"=>"書き込みアクセス : 追加、変更、または削除する機能 -OBJCONTENT-s ・ -OBJLABEL-",
+			"accessAutorPrivilege"=>"作成者と管理者のみが、アクセス権を編集したり、ファイルを削除したりできます -OBJLABEL-",
+			"accessRightsInherited"=>"継承されたアクセス権 -OBJLABEL-",
 			
 			////	Libellé des objets
 			"OBJECTcontainer"=>"コンテナ",
@@ -471,21 +471,21 @@ class Trad extends Txt
 			"INSTALL_installOk"=>"Agora-Project が正しくインストールされました!",
 			"INSTALL_spaceDescription"=>"共有と共同作業のためのスペース",
 			"INSTALL_dataDashboardNews"=>"<h3>新しい共有スペースへようこそ！</h3>
-													<h4><img src='app/img/file/iconSmall.png'> Share your files now in the file manager</h4>
-													<h4><img src='app/img/calendar/iconSmall.png'> Share your common calendars or your personal calendar</h4>
-													<h4><img src='app/img/dashboard/iconSmall.png'> Expand your community's news feed</h4>
-													<h4><img src='app/img/messenger.png'> Communicate via the forum, instant messaging or video conferences</h4>
-													<h4><img src='app/img/task/iconSmall.png'> Centralize your notes, projects and contacts</h4>
-													<h4><img src='app/img/mail/iconSmall.png'> Send newsletters by email</h4>
-													<h4><img src='app/img/postMessage.png'> <a href=\"javascript:lightboxOpen('?ctrl=user&action=SendInvitation')\">Click here to send invitation emails and grow your community!</a></h4>
-													<h4><img src='app/img/pdf.png'> <a href='https://www.omnispace.fr/index.php?ctrl=offline&action=Documentation' target='_blank'>For more information, see the official Omnispace & Agora-Project documentation</a></h4>",
-			"INSTALL_dataDashboardPoll"=>"What do you think of the news feed ?",
-			"INSTALL_dataDashboardPollA"=>"Very interesting !",
-			"INSTALL_dataDashboardPollB"=>"Interesting",
-			"INSTALL_dataDashboardPollC"=>"Not interesting",
-			"INSTALL_dataCalendarEvt"=>"Welcome on Omnispace !",
-			"INSTALL_dataForumSubject1"=>"Welcome to the Omnispace forum !",
-			"INSTALL_dataForumSubject2"=>"Feel free to share your questions or discuss the topics you want to share.",
+													<h4><img src='app/img/file/iconSmall.png'> ファイル マネージャーで今すぐファイルを共有する</h4>
+													<h4><img src='app/img/calendar/iconSmall.png'> 一般的なカレンダーまたは個人のカレンダーを共有する</h4>
+													<h4><img src='app/img/dashboard/iconSmall.png'> コミュニティのニュース フィードを拡大する</h4>
+													<h4><img src='app/img/messenger.png'> フォーラム、インスタント メッセージング、またはビデオ会議を介して通信する</h4>
+													<h4><img src='app/img/task/iconSmall.png'> メモ、プロジェクト、連絡先を一元化する</h4>
+													<h4><img src='app/img/mail/iconSmall.png'> ニュースレターをメールで送信する</h4>
+													<h4><img src='app/img/postMessage.png'> <a href=\"javascript:lightboxOpen('?ctrl=user&action=SendInvitation')\">ここをクリックして招待メールを送信し、コミュニティを成長させてください!</a></h4>
+													<h4><img src='app/img/pdf.png'> <a href='https://www.omnispace.fr/index.php?ctrl=offline&action=Documentation' target='_blank'>詳細については、Omnispace & Agora-Project の公式ドキュメントを参照してください。</a></h4>",
+			"INSTALL_dataDashboardPoll"=>"ニュースフィードについてどう思いますか?",
+			"INSTALL_dataDashboardPollA"=>"とてもおもしろい !",
+			"INSTALL_dataDashboardPollB"=>"おもしろい",
+			"INSTALL_dataDashboardPollC"=>"おもしろくない",
+			"INSTALL_dataCalendarEvt"=>"オムニスペースへようこそ！",
+			"INSTALL_dataForumSubject1"=>"オムニスペース フォーラムへようこそ!",
+			"INSTALL_dataForumSubject2"=>"質問を共有したり、共有したいトピックについて話し合ったりしてください。",
 
 			////	MODULE_PARAMETRAGE
 			////
@@ -553,18 +553,18 @@ class Trad extends Txt
 			"AGORA_sendmailFrom"=>"Email 'From'",
 			"AGORA_sendmailFromPlaceholder"=>"eg: 'noreply@mydomain.com'",
 			"AGORA_smtpHost"=>"サーバーアドレス (ホスト名)",
-			"AGORA_smtpPort"=>"Port server",
+			"AGORA_smtpPort"=>"ポート番号",
 			"AGORA_smtpPortInfo"=>"'25' by défault. '587' or '465' for SSL/TLS",
-			"AGORA_smtpSecure"=>"Encrypted connection type (option)",
+			"AGORA_smtpSecure"=>"暗号化のタイプ (オプション)",
 			"AGORA_smtpSecureInfo"=>"'ssl' または 'tls'",
-			"AGORA_smtpUsername"=>"Username",
-			"AGORA_smtpPass"=>"Password",
+			"AGORA_smtpUsername"=>"ユーザー名",
+			"AGORA_smtpPass"=>"パスワード",
 			//LDAP
 			"AGORA_ldapLabel"=>"LDAP サーバーへの接続",
 			"AGORA_ldapLabelInfo"=>"スペースでのユーザー作成のための LDAP サーバーへの接続: cf. ''User import/export'' option of the ''User'' module",
-			"AGORA_ldapUri"=>"URI LDAP",
+			"AGORA_ldapUri"=>"LDAPのURI",
 			"AGORA_ldapUriInfo"=>"Full LDAP URI as LDAP://hostname:port or LDAPS://hostname:port for SSL encryption.",
-			"AGORA_ldapPort"=>"Server port",
+			"AGORA_ldapPort"=>"ポート番号",
 			"AGORA_ldapPortInfo"=>"接続に使用するポート: '' 389 '' by default",
 			"AGORA_ldapLogin"=>"LDAP 管理者の DN (識別名)",
 			"AGORA_ldapLoginInfo"=>"for example ''cn=admin,dc=mon-entreprise,dc=com''",
@@ -577,7 +577,7 @@ class Trad extends Txt
 
 			////	MODULE_LOG
 			////
-			"LOG_moduleDescription"=>"Logs - Event Log",
+			"LOG_moduleDescription"=>"ログ - イベントログ",
 			"LOG_path"=>"Path",
 			"LOG_filter"=>"filter",
 			"LOG_date"=>"Date / Time",
@@ -662,7 +662,7 @@ class Trad extends Txt
 			// Invitation
 			"USER_sendInvitation"=>"招待状をメールで送信",
 			"USER_sendInvitationInfo"=>"現在のスペースに参加するために、連絡先に電子メールで招待状を送信します。<hr><img src='app/img/google.png' height=15> Google アカウントをお持ちの場合は、Gmail の連絡先から招待状を送信することもできます。",
-			"USER_mailInvitationObject"=>"Invitation of ", // ..Jean DUPOND
+			"USER_mailInvitationObject"=>"招待者", // ..Jean DUPOND
 			"USER_mailInvitationFromSpace"=>"参加するように招待します", // Jean DUPOND "vous invite à rejoindre l'espace" Mon Espace
 			"USER_mailInvitationConfirm"=>"ここをクリックして招待を確認します",
 			"USER_mailInvitationWait"=>"招待はまだ確認されていません",
@@ -671,7 +671,7 @@ class Trad extends Txt
 			"USER_invitPassword2"=>"招待を確認するためにパスワードを選択してください",
 			"USER_invitationValidated"=>"あなたの招待は承認されました!",
 			"USER_gPeopleImport"=>"Gmail アドレスから連絡先を取得する",
-			"USER_importQuotaExceeded"=>"You are limited to --USERS_QUOTA_REMAINING-- new user accounts, out of a total of --LIMITE_NB_USERS-- users",
+			"USER_importQuotaExceeded"=>"あなたは制限されています --USERS_QUOTA_REMAINING-- 新しいユーザーアカウント・全体のユーザー --LIMITE_NB_USERS-- 人",
 			// groupes
 			"USER_spaceGroups"=>"スペースのユーザーのグループ",
 			"USER_spaceGroupsEdit"=>"スペースのユーザーのグループを編集する",
@@ -716,7 +716,7 @@ class Trad extends Txt
 			//Index
 			"DASHBOARD_menuNews"=>"ニュース",
 			"DASHBOARD_menuPolls"=>"投票",
-			"DASHBOARD_menuElems"=>"最後の要素",
+			"DASHBOARD_menuElems"=>"最近の項目",
 			"DASHBOARD_addNews"=>"ニュースを追加",
 			"DASHBOARD_offlineNews"=>"アーカイブされたニュースを表示",
 			"DASHBOARD_offlineNewsNb"=>"アーカイブされたニュース",//"55 actualités archivées"
@@ -908,7 +908,7 @@ class Trad extends Txt
 			"FORUM_subjectBy"=>"件名",
 			"FORUM_addSubject"=>"新しい話題",
 			"FORUM_displaySubject"=>"トピックを表示",
-			"FORUM_addMessage"=>"回答",
+			"FORUM_addMessage"=>"投稿",
 			"FORUM_quoteMessage"=>"このメッセージに答えて引用する",
 			"FORUM_notifyLastPost"=>"メールで通知",
 			"FORUM_notifyLastPostInfo"=>"新しいメッセージごとに電子メールで通知を送信する",
